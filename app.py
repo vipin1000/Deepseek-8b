@@ -2,15 +2,15 @@ import subprocess
 import json
 
 # Example input for the model
-input_text = "President of USA"
+input_text = "President of India"
 
 
 
 # The command to run the Ollama model (adjust according to your system and model name)
 command = [
-    "ollama",  # Assuming "ollama" is the command-line tool
+    "ollama",  # Assuming "ollama" is the command-line tool means it is downloaded
     "run",     # Command to run the model
-    "deepseek-r1:7b",  # Replace with your specific model's name
+    "deepseek-r1:7b",  
     input_text  # Input text for the model
 ]
 
