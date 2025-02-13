@@ -7,7 +7,7 @@ def run_ollama_model(input_text):
     command = [
         "ollama",  # Assuming "ollama" is the command-line tool
         "run",     # Command to run the model
-        "deepseek-r1:7b",  # Replace with your specific model's name
+        "deepseek-r1:7b",  
         input_text  # Input text for the model
     ]
     
